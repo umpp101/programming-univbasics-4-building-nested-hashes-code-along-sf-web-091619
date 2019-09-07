@@ -1,4 +1,4 @@
-require binding.pry
+require pry
 
 def bonus
   epic_tragedy = {
@@ -22,7 +22,7 @@ def bonus
    }
   }
 
-  pry
+  binding.pry
    epic_tragedy[:Montague][:hero][:status] = "dead"
    epic_tragedy[:capulet][:heroine][:status] = "dead"
    puts epic_tragedy
