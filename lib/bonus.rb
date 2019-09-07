@@ -23,7 +23,7 @@ def bonus
   }
 
   binding.pry
-   epic_tragedy[:Montague][:hero][:status] = "dead"
+   epic_tragedy[:montague][:hero][:status] = "dead"
    epic_tragedy[:capulet][:heroine][:status] = "dead"
    puts epic_tragedy
   
